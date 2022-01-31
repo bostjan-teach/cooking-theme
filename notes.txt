@@ -8,11 +8,28 @@ development -> branch for developers
 Development -> Acceptance -> Staging -> Production
                    QA           QA
 
+MASTER BRANCH:
 
 |
 |
 |
-|
-|
-|
-|
+|    / new branch -> development
+|   /
+|  /
+| /
+| -> one commit
+| -> one commit
+| -> one commit
+
+DEVELOPMENT:
+
+
+
+|  / developer 2
+| /
+|/
+|   | PULL REQUEST (MERGE REQUEST)
+|   |
+|  / developer 1
+| /
+|/
