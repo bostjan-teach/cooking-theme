@@ -1,0 +1,18 @@
+BRANCHES:
+
+main, master -> usually production environment
+staging -> before production, QA
+acceptance -> before staging, for your company, QA
+development -> branch for developers
+
+Development -> Acceptance -> Staging -> Production
+                   QA           QA
+
+
+|
+|
+|
+|
+|
+|
+|
